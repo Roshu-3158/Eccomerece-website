@@ -139,4 +139,59 @@ body {
 
 /* Feature Section  */
 
+#feature{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#feature .fe-box{
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);  /* top-bottom left-right radius  */
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+#feature .fe-box:hover{
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);  /* top-bottom left-right radius  */
+}
+
+#feature .fe-box img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#feature .fe-box h6{
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #fddde4;
+}
+
+#feature .fe-box:nth-child(2) h6{
+  background-color: rgb(243, 172, 172);
+  
+}
+#feature .fe-box:nth-child(3) h6{
+  background-color: rgb(146, 146, 248);
+
+}
+#feature .fe-box:nth-child(4) h6{
+  background-color: rgb(138, 236, 138);
+
+}
+#feature .fe-box:nth-child(5) h6{
+  background-color: rgb(224, 224, 73);
+
+}
+#feature .fe-box:nth-child(6) h6{
+  background-color: rgb(241, 185, 81);
+
+}
 
