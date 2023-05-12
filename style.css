@@ -219,7 +219,7 @@ body {
   box-shadow: 20px 20px 30px rgb(0, 0, 0,0.02);
   margin: 15px 0;
   transition: 0.2s ease;
-  position: relative;
+  position: relative; /* if we wants to use position absolute in child element first we take position relative in parent element */
 }
 
 #product1 .pro:hover{
