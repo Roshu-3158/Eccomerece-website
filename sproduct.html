@@ -79,7 +79,7 @@
         <div class="pro-container">
             <!-- first -->
             <div class="pro">
-                <img src="img/products/n1.jpg" alt="">
+                <img src="img/products/f1.jpg" id="MainImg" alt="">
                 <div class="des">
                     <span>adidas</span>
                     <h5>Cartoon Astronault T-Shirts</h5>
@@ -97,7 +97,7 @@
 
             <!-- second -->
             <div class="pro">
-                <img src="img/products/n2.jpg" alt="">
+                <img src="img/products/f2.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
                     <h5>Cartoon Astronault T-Shirts</h5>
@@ -115,7 +115,7 @@
 
             <!-- third -->
             <div class="pro">
-                <img src="img/products/n3.jpg" alt="">
+                <img src="img/products/f3.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
                     <h5>Cartoon Astronault T-Shirts</h5>
@@ -133,7 +133,7 @@
 
             <!-- fourth -->
             <div class="pro">
-                <img src="img/products/n4.jpg" alt="">
+                <img src="img/products/f4.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
                     <h5>Cartoon Astronault T-Shirts</h5>
@@ -225,11 +225,24 @@
 
     <script>
         var MainImg = document.getElementById("MainImg");
-        var smallimg = document.getElementById("small-img");
-        
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+
     </script>
 
-    <script src="script.js"></script>
+    <script src="script.js"></script>  
 </body>
 
 </html> 
