@@ -732,6 +732,27 @@ footer .copyright{
   z-index: -9;
 }
 
+/* about page  */
+
+#page-header.about-header{
+  background-image: url("img/about/banner.png");
+}
+
+
+#about-head{
+  display: flex;
+  align-items: center;
+}
+
+
+#about-head img{
+  width: 50%;
+  height: auto;
+}
+
+#about-head div{
+  padding-left: 40px;
+}
 
 
 
@@ -930,6 +951,28 @@ footer .copyright{
 
   #prodetails .single-pro-details{
     width: 100%;
+  }
+
+  /* blog page  */
+
+  blog{
+    padding: 100px 20px 0 20px;
+  }
+
+  #blog .blog-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+
+  #blog .blog-img{
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #blog .blog-details{
+    width: 100;
   }
 }
 
