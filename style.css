@@ -883,6 +883,11 @@ footer .copyright{
 
 /* cart page */
 
+#cart{
+  /* slider added  */
+  overflow-x: auto;
+}
+
 #cart table{
   width: 100%;
   border-collapse: collapse;
@@ -1000,16 +1005,7 @@ footer .copyright{
   padding: 10px;
   font-size: 13px;
 }
-
-
-
-
-
-
-
-
  
-
 
 /* start media Query */
 
@@ -1276,6 +1272,21 @@ footer .copyright{
   #form-details form{
     width: 100%;
     margin-bottom: 30px;
+  }
+
+  /* cart section  */
+
+  #cart-add{
+    flex-direction: column;
+  }
+
+  #coupon{
+    width: 100%;
+  }
+
+  #subtotal{
+    width: 100%;
+    padding: 20px;
   }
 
 
